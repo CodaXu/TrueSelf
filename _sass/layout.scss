@@ -470,6 +470,12 @@ nav > ul li a:active {
 
 
 // Feature List
+.section {
+	grid-area: f;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 .section_title {
 	display: block;
 	line-height: 1.5;
@@ -477,8 +483,7 @@ nav > ul li a:active {
 	text-align: center;
 	padding-top: 70px;
 	padding-bottom: 30px;
-}	
-
+}
 .features {
 	grid-area: c;
 	display: flex;
