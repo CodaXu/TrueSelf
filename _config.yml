@@ -100,7 +100,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - shippable
 
 collections:
   pages:
